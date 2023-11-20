@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>{t("Welcome to React")}КУКУ</h2>
+      <h2>{t("Welcome to React")}</h2>
       <br />
       <button onClick={handleLenguageChange}>
         {t("change to")} {language === "uk" ? t("english") : t("ukrainian")}
